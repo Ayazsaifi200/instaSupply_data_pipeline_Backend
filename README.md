@@ -31,8 +31,8 @@ The system consists of three main components:
 ### 1. Clone and Setup
 
 ```bash
-git clone <repository-url>
-cd data_pipeline_InstaSupply_Assmnt
+git clone https://github.com/Ayazsaifi200/instaSupply_data_pipeline_Backend.git
+cd instaSupply_data_pipeline_Backend
 
 # Install dependencies (if not already installed)
 npm install
@@ -220,6 +220,29 @@ npm run test:watch
 # Run specific test file
 npm test tests/api.test.js
 ```
+
+### Coverage Summary
+
+Last run: **73 tests passed, 0 failed** across 4 test suites.
+
+| File | Statements | Branches | Functions | Lines |
+|------|-----------|----------|-----------|-------|
+| **All files** | **67.09%** | **55.46%** | **73.72%** | **67.10%** |
+| src/app.js | 57.54% | 21.42% | 52.17% | 58.65% |
+| src/consumer.js | 70.00% | 83.78% | 58.82% | 71.29% |
+| src/config/config.js | 100% | 52.94% | 100% | 100% |
+| src/controllers/fetchController.js | 60.97% | 53.33% | 75.00% | 60.97% |
+| src/controllers/uploadController.js | 40.00% | 18.75% | 70.00% | 39.24% |
+| src/database/connection.js | 81.57% | 40.00% | 83.33% | 81.57% |
+| src/routes/data.js | 100% | 100% | 100% | 100% |
+| src/routes/health.js | 76.66% | 50.00% | 100% | 76.66% |
+| src/routes/upload.js | 100% | 100% | 100% | 100% |
+| src/services/dataService.js | 89.18% | 76.92% | 96.42% | 88.73% |
+| src/services/kafkaService.js | 50.00% | 47.36% | 70.00% | 49.31% |
+| src/services/redisService.js | 62.19% | 52.94% | 78.57% | 62.19% |
+| src/utils/logger.js | 90.00% | 50.00% | 100% | 90.00% |
+
+> Generate a fresh HTML coverage report: `npm test` — opens in `coverage/lcov-report/index.html`
 
 ### Manual Testing
 
