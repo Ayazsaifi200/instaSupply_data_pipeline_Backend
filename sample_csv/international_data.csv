@@ -1,0 +1,11 @@
+name,email,age,city,country,salary,department
+Sophie Müller,sophie.mueller@berlin-tech.de,29,Berlin,Germany,55000.00,Engineering
+Hiroshi Tanaka,hiroshi.tanaka@tokyo-corp.jp,34,Tokyo,Japan,65000.00,Engineering
+Marie Dubois,marie.dubois@paris-solutions.fr,31,Paris,France,58000.50,Design
+Carlos Rodriguez,carlos.rodriguez@madrid-systems.es,28,Madrid,Spain,52000.75,Sales
+Priya Sharma,priya.sharma@mumbai-tech.in,26,Mumbai,India,24000.00,Engineering
+Lucas Silva,lucas.silva@saopaulo-corp.br,33,São Paulo,Brazil,35000.25,Marketing
+Emma Thompson,emma.thompson@london-ltd.uk,30,London,UK,62000.00,Finance
+Ahmed Hassan,ahmed.hassan@dubai-solutions.ae,32,Dubai,UAE,58000.50,Operations
+Anna Kowalski,anna.kowalski@warsaw-tech.pl,27,Warsaw,Poland,28000.75,HR
+Chen Wei,chen.wei@beijing-systems.cn,35,Beijing,China,42000.00,Engineering

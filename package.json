@@ -1,0 +1,59 @@
+{
+  "name": "data_pipeline_instasupply_assmnt",
+  "version": "1.0.0",
+  "description": "Backend system with REST APIs, PostgreSQL, Redis, and Kafka",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "consumer": "node src/consumer.js",
+    "consumer:dev": "nodemon src/consumer.js",
+    "test:watch": "jest --watch",
+    "setup:db": "node src/database/setup.js",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:logs": "docker-compose logs -f"
+  },
+  "keywords": [
+    "nodejs",
+    "postgresql",
+    "redis",
+    "kafka",
+    "rest-api",
+    "docker"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "compression": "^1.8.1",
+    "cors": "^2.8.6",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "joi": "^18.0.2",
+    "kafkajs": "^2.2.4",
+    "multer": "^2.1.1",
+    "pg": "^8.20.0",
+    "redis": "^5.11.0",
+    "uuid": "^11.1.0",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.3.0",
+    "nodemon": "^3.1.14",
+    "supertest": "^7.2.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coverageDirectory": "coverage",
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/tests/**",
+      "!src/database/setup.js"
+    ]
+  }
+}

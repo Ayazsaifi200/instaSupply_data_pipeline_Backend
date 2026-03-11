@@ -1,0 +1,11 @@
+name,email,age,city,country,salary,department
+John Doe,john.doe@example.com,30,New York,USA,75000.00,Engineering
+Jane Smith,jane.smith@example.com,28,Los Angeles,USA,68000.50,Marketing
+Bob Johnson,bob.johnson@example.com,35,Chicago,USA,82000.00,Sales
+Alice Brown,alice.brown@example.com,32,Houston,USA,71000.25,HR
+Charlie Davis,charlie.davis@example.com,29,Phoenix,USA,69500.75,Engineering
+Eva Wilson,eva.wilson@example.com,26,Philadelphia,USA,62000.00,Marketing
+Frank Miller,frank.miller@example.com,38,San Antonio,USA,88000.00,Sales
+Grace Lee,grace.lee@example.com,31,San Diego,USA,74500.50,Engineering
+Henry Taylor,henry.taylor@example.com,33,Dallas,USA,79000.00,Finance
+Ivy Chen,ivy.chen@example.com,27,San Jose,USA,71500.25,Engineering

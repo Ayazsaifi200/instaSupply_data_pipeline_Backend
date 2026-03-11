@@ -1,0 +1,11 @@
+name,email,age,city,country,salary,department
+Valid User,valid.user@test.com,25,Boston,USA,50000,Engineering
+Missing Age,missing.age@test.com,,San Francisco,USA,60000,Sales
+Empty City,empty.city@test.com,30,,USA,55000,Marketing
+No Department,no.dept@test.com,28,Portland,USA,52000,
+Missing Country,missing.country@test.com,32,Seattle,,48000,HR
+Zero Salary,zero.salary@test.com,29,Denver,USA,0,Finance
+High Age,high.age@test.com,150,Miami,USA,75000,Engineering
+Negative Age,negative.age@test.com,-5,Chicago,USA,65000,Sales
+Invalid Email,invalid-email,30,Austin,USA,58000,Marketing
+Complete Record,complete.record@test.com,35,New York,USA,70000,Operations
